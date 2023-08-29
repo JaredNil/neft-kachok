@@ -85,3 +85,16 @@ h6 {
 	font-weight: inherit;
 	font-size: inherit;
 }
+
+#root {
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+._app-container {
+	width: 100%;
+	background-color: aqua;
+	height: 200px;
+}

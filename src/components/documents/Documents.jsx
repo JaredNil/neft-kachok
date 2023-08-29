@@ -5,7 +5,7 @@ function Documents() {
 	return (
 		<>
 			<Header />
-			<div className="doc">
+			<div className="doc _app-container">
 				Документы
 			</div>
 		</>
