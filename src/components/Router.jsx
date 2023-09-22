@@ -1,6 +1,6 @@
 import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom';
 import App from './App';
-import About from './about/About';
+import Struct from './struct/Struct';
 import Contacts from './contacts/Contacts';
 import Documents from './documents/Documents';
 
@@ -15,8 +15,8 @@ const router = createBrowserRouter(
 				errorElement={<App />}
 			/>
 			<Route
-				path="/about"
-				element={<About />}
+				path="/struct"
+				element={<Struct />}
 				errorElement={<App />}
 			/>
 			<Route
@@ -27,7 +27,7 @@ const router = createBrowserRouter(
 			<Route
 				path="/documents"
 				element={<Documents />}
-				errorElement={<App />}
+
 			/>
 		</>
 	)

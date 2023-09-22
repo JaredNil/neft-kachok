@@ -1,16 +1,16 @@
 import React from 'react';
-import './About.scss'
+import './Struct.scss'
 import Header from '../header/Header';
 
-function About(props) {
+function Struct(props) {
 	return (
 		<>
 			<Header />
-			<div className='about'>
+			<div className='struct'>
 
 			</div>
 		</>
 	);
 }
 
-export default About;
+export default Struct;

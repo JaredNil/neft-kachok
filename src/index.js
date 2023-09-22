@@ -12,9 +12,11 @@ import router from './components/Router';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<RouterProvider router={router} >
-			<App />
-		</RouterProvider>
+		<div className='application-container'>
+			<RouterProvider router={router} >
+				<App />
+			</RouterProvider>
+		</div>
 	</React.StrictMode >
 );
 

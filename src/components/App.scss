@@ -1,0 +1,17 @@
+.struct__about {
+	padding: 20px 0px;
+
+	p {
+		padding-bottom: 10px;
+	}
+	ul {
+		li::marker {
+			color: blue;
+			font-size: 1.2em;
+		}
+	}
+}
+
+.struct__about-title {
+	font-size: 24px;
+}

@@ -90,11 +90,14 @@ h6 {
 	position: relative;
 	width: 100%;
 	display: flex;
-	align-items: center;
 	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	* {
+		font-family: "Roboto", sans-serif;
+	}
 }
-._app-container {
-	width: 100%;
-	background-color: aqua;
-	height: 200px;
+.application-container {
+	position: relative;
+	width: 75%;
 }
