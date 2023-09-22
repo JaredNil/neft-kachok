@@ -22,6 +22,10 @@ $blue: #049ce7;
 		@media (max-width: 1120px) {
 			width: 100%;
 		}
+		@media (max-width: 580px) {
+			display: flex;
+			flex-wrap: wrap;
+		}
 
 		display: flex;
 		justify-content: space-around;
@@ -36,6 +40,12 @@ $blue: #049ce7;
 			@media (max-width: 880px) {
 				font-size: 14px;
 				padding: 24px 0;
+			}
+			@media (max-width: 580px) {
+				text-align: center;
+				flex: 0 0 40%;
+				font-size: 14px;
+				padding: 10px 0;
 			}
 
 			// background-color: #049be778;
@@ -62,6 +72,12 @@ $blue: #049ce7;
 						left: -10%;
 						height: 150%;
 						top: -25%;
+					}
+					@media (max-width: 700px) {
+						width: 110%;
+						left: -5%;
+						height: 120%;
+						top: -10%;
 					}
 				}
 			}

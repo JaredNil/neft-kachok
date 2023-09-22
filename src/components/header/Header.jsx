@@ -34,7 +34,7 @@ function Header() {
 					</h1>
 				</div>
 
-				<div className="	application-header-links	">
+				<div className="application-header-links">
 					<ul >
 						<li >
 							<Link to='/' className={`${(curLink === '') ? 'current' : ' '}`}>О компании</Link>
