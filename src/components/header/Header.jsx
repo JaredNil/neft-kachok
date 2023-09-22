@@ -8,18 +8,34 @@ function Header() {
 	let curLink = window.navigation.currentEntry.url.split('/').reverse()[0]
 
 	return (
-		<div className='application-header'>
-			<div className="application-header-container">
+		<div className='w-full flex flex-col align-middle'>
+			<div className="w-full">
 
-				<div className="application-header-text">
-					<div className="application-header-logo-container">
-						<img className='logo' src={companyLogo} alt="#" />
+				<div
+					className="
+						w-full
+						flex justify-center items-center
+						max-md:flex-col
+						py-5 px-1
+						max-md:py-3
+					"
+				>
+					<div className="
+						flex w-28 h-16 relative
+					">
+						<img className='w-full h-full' src={companyLogo} alt="#" />
 					</div>
-					<h1>ООО «МАГИСТРАЛЬЛОГИСТИК»</h1>
+					<h1
+						className='px-8 text-2xl shrink
+						max-sm:text-sm
+						max-md:py-1 max-md:px-0'
+					>
+						ООО «МАГИСТРАЛЬЛОГИСТИК»
+					</h1>
 				</div>
-				<div className="application-header-links">
 
-					<ul>
+				<div className="	application-header-links	">
+					<ul >
 						<li >
 							<Link to='/' className={`${(curLink === '') ? 'current' : ' '}`}>О компании</Link>
 						</li>

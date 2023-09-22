@@ -1,60 +1,50 @@
 $blue: #049ce7;
 
-.application-header {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	.application-header-container {
-		width: 100%;
-	}
-}
-
 .application-header-text {
-	padding: 20px 10px;
-	margin-right: 50px;
-
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-
 	.application-header-logo-container {
-		position: relative;
-		width: 110px;
-		height: 60px;
-
-		.logo {
-			width: 100%;
-			height: 100%;
-		}
 	}
-
 	h1 {
-		font-size: 24px;
-		font-weight: 300;
 	}
 }
 
 .application-header-links {
 	width: 100%;
-	// display: flex;
-	// justify-content: center;
-	height: 70px;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: center;
+
 	ul {
 		position: relative;
-		width: 100%;
+		width: 60%;
+		@media (max-width: 1500px) {
+			width: 80%;
+		}
+		@media (max-width: 1120px) {
+			width: 100%;
+		}
+
 		display: flex;
 		justify-content: space-around;
 		li {
 			display: block;
 			position: relative;
-			padding: 20px 14px;
+			padding: 24px 30px;
 			font-size: 22px;
+			@media (max-width: 1800px) {
+				font-size: 18px;
+			}
+			@media (max-width: 880px) {
+				font-size: 14px;
+				padding: 24px 0;
+			}
+
+			// background-color: #049be778;
 
 			a {
 				display: block;
 				position: relative;
 				color: #000;
+
 				&.current {
 					color: $blue;
 				}
@@ -62,11 +52,17 @@ $blue: #049ce7;
 					position: absolute;
 					content: "";
 					background-color: rgba(31, 23, 23, 0.13);
-					width: 110%;
-					height: 150%;
-					top: -25%;
-					left: -5%;
+					width: 150%;
+					left: -25%;
+					height: 200%;
+					top: -50%;
 					border-radius: 10%;
+					@media (max-width: 1500px) {
+						width: 120%;
+						left: -10%;
+						height: 150%;
+						top: -25%;
+					}
 				}
 			}
 		}
@@ -76,7 +72,7 @@ $blue: #049ce7;
 			background-color: $blue;
 			width: 100%;
 			height: 6px;
-			bottom: 0px;
+			bottom: -5px;
 			left: 0;
 		}
 	}
