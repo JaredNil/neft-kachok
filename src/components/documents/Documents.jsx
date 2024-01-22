@@ -3,6 +3,7 @@ import './Documents.scss';
 
 import pdfDoc from './../../resources/show_document.pdf'
 
+
 function Documents() {
 
 	let heightDocument = 200
@@ -11,6 +12,7 @@ function Documents() {
 		heightDocument = window.screen.height - 400
 		widthDocument = heightDocument / 1.4142
 	}
+
 
 
 	return (
