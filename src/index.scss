@@ -19,6 +19,7 @@ code {
 	margin: 0px;
 	border: 0px;
 }
+
 *,
 *:before,
 *:after {
@@ -26,14 +27,17 @@ code {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
 :focus,
 :active {
 	outline: none;
 }
+
 a:focus,
 a:active {
 	outline: none;
 }
+
 aside,
 nav,
 footer,
@@ -41,45 +45,56 @@ header,
 section {
 	display: block;
 }
+
 html,
 body {
 	height: 100%;
 }
+
 body {
 	line-height: 1;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
+
 input,
 button,
 textarea {
 	font-size: inherit;
 }
+
 input::-ms-clear {
 	display: none;
 }
+
 button {
 	cursor: pointer;
 	background-color: inherit;
 }
+
 button::-moz-focus-inner {
 	padding: 0;
 	border: 0;
 }
+
 a,
 a:visited {
 	text-decoration: none;
 }
+
 a:hover {
 	text-decoration: none;
 }
+
 ul li {
 	list-style: none;
 }
+
 img {
 	vertical-align: top;
 }
+
 h1,
 h2,
 h3,
@@ -97,10 +112,12 @@ h6 {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
+
 	* {
 		font-family: "Roboto", sans-serif;
 	}
 }
+
 .application-container {
 	position: relative;
 	width: 75%;
